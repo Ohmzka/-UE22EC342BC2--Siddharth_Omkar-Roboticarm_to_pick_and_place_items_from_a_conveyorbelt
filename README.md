@@ -1,6 +1,6 @@
 # pickandplacescaraarm
 
-This project aims to simulate a SCARA pick and place robot with a conveyor belt in gazebo.
+This project aims to simulate a SCARA robot to pick and place objects on a conveyor belt in gazebo.
 
 Workflow: 
 - SCARA robot, conveyor belt are spawned in the gazebo enviroment, followed by the objects being spawned on the belt.
