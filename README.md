@@ -1,4 +1,4 @@
-# ros2scaraconvbelt
+# pickandplacescaraarm
 
 This project aims to simulate a SCARA pick and place robot with a conveyor belt in gazebo.
 
