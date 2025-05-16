@@ -1,0 +1,1 @@
+rclcpp;std_msgs;sensor_msgs;geometry_msgs;controller_manager;control_msgs;hardware_interface;pluginlib;ros2_control;ros2_controllers;controller_interface;trajectory_msgs;launch;launch_ros;xacro;robot_state_publisher;gazebo_ros;gazebo_ros2_control;ament_lint_auto;ament_lint_common

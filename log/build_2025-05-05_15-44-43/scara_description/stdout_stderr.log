@@ -1,0 +1,24 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/omkar/two_scara_ws/build/scara_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf/scara1.urdf.xacro
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch/spawn_scara.launch.py
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.sh
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.dsv
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.bash
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.sh
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.zsh
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.dsv
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.dsv
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.xml

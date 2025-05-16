@@ -1,0 +1,1 @@
+/home/omkar/two_scara_ws/build/scara_gazebo/ament_cmake_environment_hooks/local_setup.zsh

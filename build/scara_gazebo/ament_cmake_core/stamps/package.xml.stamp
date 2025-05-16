@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>scara_gazebo</name>
+  <version>0.0.1</version>
+  <description>Gazebo world and launch files for SCARA simulation</description>
+  <maintainer email="omkar@todo.todo">omkar</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+

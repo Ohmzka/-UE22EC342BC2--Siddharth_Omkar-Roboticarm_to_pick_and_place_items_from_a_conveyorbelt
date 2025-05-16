@@ -1,0 +1,30 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    joint1_position_controller:
+      type: position_controllers/JointPositionController
+      joint: joint1
+      state_publish_rate: 25
+      command_interfaces:
+        - position
+      initial_position: 0.0
+
+    joint2_position_controller:
+      type: position_controllers/JointPositionController
+      joint: joint2
+      state_publish_rate: 25
+      command_interfaces:
+        - position
+      initial_position: 0.0
+
+    joint3_position_controller:
+      type: position_controllers/JointPositionController
+      joint: joint3
+      state_publish_rate: 25
+      command_interfaces:
+        - position
+      initial_position: 0.0

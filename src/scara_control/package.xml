@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>scara_control</name>
+  <version>0.0.1</version>
+  <description>SCARA Control</description>
+  <maintainer email="omkar@todo.todo">omkar</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rclcpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>controller_manager</build_depend>
+  <build_depend>control_msgs</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>ros2_control</build_depend>
+  <build_depend>ros2_controllers</build_depend>
+  <build_depend>controller_interface</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>launch</build_depend>
+  <build_depend>launch_ros</build_depend>
+  <build_depend>xacro</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>gazebo_ros2_control</build_depend>
+
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>control_msgs</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>ros2_controllers</exec_depend>
+  <exec_depend>controller_interface</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>gazebo_ros2_control</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+

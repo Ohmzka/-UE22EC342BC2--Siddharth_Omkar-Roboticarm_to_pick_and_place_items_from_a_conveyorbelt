@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000878] (conveyor_description) JobQueued: {'identifier': 'conveyor_description', 'dependencies': OrderedDict()}
+[0.000990] (scara_control) JobQueued: {'identifier': 'scara_control', 'dependencies': OrderedDict()}
+[0.001050] (scara_description) JobQueued: {'identifier': 'scara_description', 'dependencies': OrderedDict()}
+[0.001101] (scara_gazebo) JobQueued: {'identifier': 'scara_gazebo', 'dependencies': OrderedDict()}
+[0.001149] (conveyor_description) JobStarted: {'identifier': 'conveyor_description'}
+[0.013747] (scara_control) JobStarted: {'identifier': 'scara_control'}
+[0.022301] (scara_description) JobStarted: {'identifier': 'scara_description'}
+[0.031447] (scara_gazebo) JobStarted: {'identifier': 'scara_gazebo'}
+[0.043904] (conveyor_description) JobProgress: {'identifier': 'conveyor_description', 'progress': 'cmake'}
+[0.045008] (conveyor_description) JobProgress: {'identifier': 'conveyor_description', 'progress': 'build'}
+[0.046625] (conveyor_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omkar/two_scara_ws/build/conveyor_description', '--', '-j8', '-l8'], 'cwd': '/home/omkar/two_scara_ws/build/conveyor_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/conveyor_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.051949] (scara_control) JobProgress: {'identifier': 'scara_control', 'progress': 'cmake'}
+[0.053880] (scara_control) JobProgress: {'identifier': 'scara_control', 'progress': 'build'}
+[0.055206] (scara_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omkar/two_scara_ws/build/scara_control', '--', '-j8', '-l8'], 'cwd': '/home/omkar/two_scara_ws/build/scara_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/scara_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.058929] (scara_description) JobProgress: {'identifier': 'scara_description', 'progress': 'cmake'}
+[0.059684] (scara_description) JobProgress: {'identifier': 'scara_description', 'progress': 'build'}
+[0.060452] (scara_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omkar/two_scara_ws/build/scara_description', '--', '-j8', '-l8'], 'cwd': '/home/omkar/two_scara_ws/build/scara_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/scara_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.072350] (scara_gazebo) JobProgress: {'identifier': 'scara_gazebo', 'progress': 'cmake'}
+[0.074483] (scara_gazebo) JobProgress: {'identifier': 'scara_gazebo', 'progress': 'build'}
+[0.075938] (scara_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omkar/two_scara_ws/build/scara_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/omkar/two_scara_ws/build/scara_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/scara_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.098763] (-) TimerEvent: {}
+[0.146389] (conveyor_description) CommandEnded: {'returncode': 0}
+[0.149229] (conveyor_description) JobProgress: {'identifier': 'conveyor_description', 'progress': 'install'}
+[0.171085] (conveyor_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omkar/two_scara_ws/build/conveyor_description'], 'cwd': '/home/omkar/two_scara_ws/build/conveyor_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/conveyor_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.176981] (scara_description) CommandEnded: {'returncode': 0}
+[0.178838] (scara_description) JobProgress: {'identifier': 'scara_description', 'progress': 'install'}
+[0.180219] (scara_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omkar/two_scara_ws/build/scara_description'], 'cwd': '/home/omkar/two_scara_ws/build/scara_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/scara_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.184517] (scara_gazebo) CommandEnded: {'returncode': 0}
+[0.186460] (scara_gazebo) JobProgress: {'identifier': 'scara_gazebo', 'progress': 'install'}
+[0.188584] (scara_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omkar/two_scara_ws/build/scara_gazebo'], 'cwd': '/home/omkar/two_scara_ws/build/scara_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/scara_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[0.192519] (conveyor_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.194025] (conveyor_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.195330] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/urdf/conveyor.urdf.xacro\n'}
+[0.196173] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/launch/conveyor_gz.launch.py\n'}
+[0.197599] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/package_run_dependencies/conveyor_description\n'}
+[0.198142] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/parent_prefix_path/conveyor_description\n'}
+[0.198514] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/ament_prefix_path.sh\n'}
+[0.198783] (-) TimerEvent: {}
+[0.199320] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/ament_prefix_path.dsv\n'}
+[0.199763] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/path.sh\n'}
+[0.200274] (scara_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.200894] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/path.dsv\n'}
+[0.201696] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.bash\n'}
+[0.202444] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.sh\n'}
+[0.202888] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.zsh\n'}
+[0.203343] (scara_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.203675] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.dsv\n'}
+[0.203998] (conveyor_description) StdoutLine: {'line': b'-- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/package.dsv\n'}
+[0.204592] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf/scara1.urdf.xacro\n'}
+[0.204947] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch/spawn_scara.launch.py\n'}
+[0.205366] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description\n'}
+[0.205850] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description\n'}
+[0.206441] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh\n'}
+[0.206954] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv\n'}
+[0.207520] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.sh\n'}
+[0.208048] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.dsv\n'}
+[0.208595] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.bash\n'}
+[0.209066] (scara_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.209545] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.sh\n'}
+[0.209983] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.zsh\n'}
+[0.210488] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.dsv\n'}
+[0.210800] (scara_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.211285] (scara_description) StdoutLine: {'line': b'-- Symlinking: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.dsv\n'}
+[0.211710] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/launch/scara_world.launch.py\n'}
+[0.212901] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/worlds/scara_world.world\n'}
+[0.213850] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/package_run_dependencies/scara_gazebo\n'}
+[0.214389] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/parent_prefix_path/scara_gazebo\n'}
+[0.214918] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/ament_prefix_path.sh\n'}
+[0.215760] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.216251] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/path.sh\n'}
+[0.216691] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/path.dsv\n'}
+[0.217316] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.bash\n'}
+[0.217877] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.sh\n'}
+[0.218453] (scara_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/coordination_node.dir/src/coordination_node.cpp.o\x1b[0m\n'}
+[0.218874] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.zsh\n'}
+[0.219358] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.dsv\n'}
+[0.219647] (scara_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/package.dsv\n'}
+[0.228245] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/packages/conveyor_description\n'}
+[0.228864] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/cmake/conveyor_descriptionConfig.cmake\n'}
+[0.229636] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/cmake/conveyor_descriptionConfig-version.cmake\n'}
+[0.230472] (conveyor_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/package.xml\n'}
+[0.235332] (conveyor_description) CommandEnded: {'returncode': 0}
+[0.238968] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description\n'}
+[0.239943] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake\n'}
+[0.240287] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake\n'}
+[0.240663] (scara_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.xml\n'}
+[0.245043] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/packages/scara_gazebo\n'}
+[0.246099] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/cmake/scara_gazeboConfig.cmake\n'}
+[0.246387] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/cmake/scara_gazeboConfig-version.cmake\n'}
+[0.246600] (scara_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/package.xml\n'}
+[0.286412] (conveyor_description) JobEnded: {'identifier': 'conveyor_description', 'rc': 0}
+[0.289074] (scara_gazebo) CommandEnded: {'returncode': 0}
+[0.299206] (-) TimerEvent: {}
+[0.322935] (scara_gazebo) JobEnded: {'identifier': 'scara_gazebo', 'rc': 0}
+[0.325526] (scara_description) CommandEnded: {'returncode': 0}
+[0.359400] (scara_description) JobEnded: {'identifier': 'scara_description', 'rc': 0}
+[0.399347] (-) TimerEvent: {}
+[0.499881] (-) TimerEvent: {}
+[0.600443] (-) TimerEvent: {}
+[0.700840] (-) TimerEvent: {}
+[0.801264] (-) TimerEvent: {}
+[0.901713] (-) TimerEvent: {}
+[1.002314] (-) TimerEvent: {}
+[1.102780] (-) TimerEvent: {}
+[1.203216] (-) TimerEvent: {}
+[1.303681] (-) TimerEvent: {}
+[1.404133] (-) TimerEvent: {}
+[1.504624] (-) TimerEvent: {}
+[1.605034] (-) TimerEvent: {}
+[1.705467] (-) TimerEvent: {}
+[1.805898] (-) TimerEvent: {}
+[1.906348] (-) TimerEvent: {}
+[2.006832] (-) TimerEvent: {}
+[2.107276] (-) TimerEvent: {}
+[2.207824] (-) TimerEvent: {}
+[2.308287] (-) TimerEvent: {}
+[2.408733] (-) TimerEvent: {}
+[2.509176] (-) TimerEvent: {}
+[2.609668] (-) TimerEvent: {}
+[2.710118] (-) TimerEvent: {}
+[2.810654] (-) TimerEvent: {}
+[2.911122] (-) TimerEvent: {}
+[3.011615] (-) TimerEvent: {}
+[3.112084] (-) TimerEvent: {}
+[3.212612] (-) TimerEvent: {}
+[3.313125] (-) TimerEvent: {}
+[3.413629] (-) TimerEvent: {}
+[3.514238] (-) TimerEvent: {}
+[3.614769] (-) TimerEvent: {}
+[3.715227] (-) TimerEvent: {}
+[3.815651] (-) TimerEvent: {}
+[3.916092] (-) TimerEvent: {}
+[4.016557] (-) TimerEvent: {}
+[4.117052] (-) TimerEvent: {}
+[4.217503] (-) TimerEvent: {}
+[4.317980] (-) TimerEvent: {}
+[4.418430] (-) TimerEvent: {}
+[4.518923] (-) TimerEvent: {}
+[4.619378] (-) TimerEvent: {}
+[4.719859] (-) TimerEvent: {}
+[4.820318] (-) TimerEvent: {}
+[4.920792] (-) TimerEvent: {}
+[5.021254] (-) TimerEvent: {}
+[5.121781] (-) TimerEvent: {}
+[5.222338] (-) TimerEvent: {}
+[5.322871] (-) TimerEvent: {}
+[5.423421] (-) TimerEvent: {}
+[5.523863] (-) TimerEvent: {}
+[5.624362] (-) TimerEvent: {}
+[5.724833] (-) TimerEvent: {}
+[5.825335] (-) TimerEvent: {}
+[5.925904] (-) TimerEvent: {}
+[6.026462] (-) TimerEvent: {}
+[6.126900] (-) TimerEvent: {}
+[6.227335] (-) TimerEvent: {}
+[6.327816] (-) TimerEvent: {}
+[6.428271] (-) TimerEvent: {}
+[6.528712] (-) TimerEvent: {}
+[6.629169] (-) TimerEvent: {}
+[6.729690] (-) TimerEvent: {}
+[6.830195] (-) TimerEvent: {}
+[6.930682] (-) TimerEvent: {}
+[7.031313] (-) TimerEvent: {}
+[7.131805] (-) TimerEvent: {}
+[7.232237] (-) TimerEvent: {}
+[7.332678] (-) TimerEvent: {}
+[7.433118] (-) TimerEvent: {}
+[7.533605] (-) TimerEvent: {}
+[7.634051] (-) TimerEvent: {}
+[7.734536] (-) TimerEvent: {}
+[7.835064] (-) TimerEvent: {}
+[7.935555] (-) TimerEvent: {}
+[8.036009] (-) TimerEvent: {}
+[8.136593] (-) TimerEvent: {}
+[8.237039] (-) TimerEvent: {}
+[8.337465] (-) TimerEvent: {}
+[8.437943] (-) TimerEvent: {}
+[8.538459] (-) TimerEvent: {}
+[8.638922] (-) TimerEvent: {}
+[8.739421] (-) TimerEvent: {}
+[8.839952] (-) TimerEvent: {}
+[8.940470] (-) TimerEvent: {}
+[9.041125] (-) TimerEvent: {}
+[9.141702] (-) TimerEvent: {}
+[9.242397] (-) TimerEvent: {}
+[9.343144] (-) TimerEvent: {}
+[9.443806] (-) TimerEvent: {}
+[9.544404] (-) TimerEvent: {}
+[9.645064] (-) TimerEvent: {}
+[9.745749] (-) TimerEvent: {}
+[9.846394] (-) TimerEvent: {}
+[9.946866] (-) TimerEvent: {}
+[10.047495] (-) TimerEvent: {}
+[10.148161] (-) TimerEvent: {}
+[10.248772] (-) TimerEvent: {}
+[10.349315] (-) TimerEvent: {}
+[10.449907] (-) TimerEvent: {}
+[10.550380] (-) TimerEvent: {}
+[10.650851] (-) TimerEvent: {}
+[10.751352] (-) TimerEvent: {}
+[10.851854] (-) TimerEvent: {}
+[10.952386] (-) TimerEvent: {}
+[11.053104] (-) TimerEvent: {}
+[11.153642] (-) TimerEvent: {}
+[11.254153] (-) TimerEvent: {}
+[11.354628] (-) TimerEvent: {}
+[11.455047] (-) TimerEvent: {}
+[11.555464] (-) TimerEvent: {}
+[11.655894] (-) TimerEvent: {}
+[11.756402] (-) TimerEvent: {}
+[11.856891] (-) TimerEvent: {}
+[11.957347] (-) TimerEvent: {}
+[12.057833] (-) TimerEvent: {}
+[12.158253] (-) TimerEvent: {}
+[12.258689] (-) TimerEvent: {}
+[12.359166] (-) TimerEvent: {}
+[12.459642] (-) TimerEvent: {}
+[12.560107] (-) TimerEvent: {}
+[12.660605] (-) TimerEvent: {}
+[12.761106] (-) TimerEvent: {}
+[12.861595] (-) TimerEvent: {}
+[12.962097] (-) TimerEvent: {}
+[13.062699] (-) TimerEvent: {}
+[13.163321] (-) TimerEvent: {}
+[13.263799] (-) TimerEvent: {}
+[13.364248] (-) TimerEvent: {}
+[13.464694] (-) TimerEvent: {}
+[13.565325] (-) TimerEvent: {}
+[13.665789] (-) TimerEvent: {}
+[13.766257] (-) TimerEvent: {}
+[13.866694] (-) TimerEvent: {}
+[13.967367] (-) TimerEvent: {}
+[14.067956] (-) TimerEvent: {}
+[14.168399] (-) TimerEvent: {}
+[14.268870] (-) TimerEvent: {}
+[14.369570] (-) TimerEvent: {}
+[14.470212] (-) TimerEvent: {}
+[14.570784] (-) TimerEvent: {}
+[14.671309] (-) TimerEvent: {}
+[14.771845] (-) TimerEvent: {}
+[14.872369] (-) TimerEvent: {}
+[14.972939] (-) TimerEvent: {}
+[15.073573] (-) TimerEvent: {}
+[15.174108] (-) TimerEvent: {}
+[15.274577] (-) TimerEvent: {}
+[15.375021] (-) TimerEvent: {}
+[15.475475] (-) TimerEvent: {}
+[15.576039] (-) TimerEvent: {}
+[15.676569] (-) TimerEvent: {}
+[15.777117] (-) TimerEvent: {}
+[15.877682] (-) TimerEvent: {}
+[15.978237] (-) TimerEvent: {}
+[16.078822] (-) TimerEvent: {}
+[16.179304] (-) TimerEvent: {}
+[16.279880] (-) TimerEvent: {}
+[16.380432] (-) TimerEvent: {}
+[16.480855] (-) TimerEvent: {}
+[16.581294] (-) TimerEvent: {}
+[16.681769] (-) TimerEvent: {}
+[16.782239] (-) TimerEvent: {}
+[16.882757] (-) TimerEvent: {}
+[16.983358] (-) TimerEvent: {}
+[17.084008] (-) TimerEvent: {}
+[17.184440] (-) TimerEvent: {}
+[17.284904] (-) TimerEvent: {}
+[17.385348] (-) TimerEvent: {}
+[17.485835] (-) TimerEvent: {}
+[17.586244] (-) TimerEvent: {}
+[17.686686] (-) TimerEvent: {}
+[17.787121] (-) TimerEvent: {}
+[17.887575] (-) TimerEvent: {}
+[17.988046] (-) TimerEvent: {}
+[18.088475] (-) TimerEvent: {}
+[18.188951] (-) TimerEvent: {}
+[18.289414] (-) TimerEvent: {}
+[18.389842] (-) TimerEvent: {}
+[18.490289] (-) TimerEvent: {}
+[18.590731] (-) TimerEvent: {}
+[18.691178] (-) TimerEvent: {}
+[18.791635] (-) TimerEvent: {}
+[18.892181] (-) TimerEvent: {}
+[18.992752] (-) TimerEvent: {}
+[19.093239] (-) TimerEvent: {}
+[19.193693] (-) TimerEvent: {}
+[19.294133] (-) TimerEvent: {}
+[19.394580] (-) TimerEvent: {}
+[19.495143] (-) TimerEvent: {}
+[19.595628] (-) TimerEvent: {}
+[19.696109] (-) TimerEvent: {}
+[19.796623] (-) TimerEvent: {}
+[19.897133] (-) TimerEvent: {}
+[19.997689] (-) TimerEvent: {}
+[20.098254] (-) TimerEvent: {}
+[20.198681] (-) TimerEvent: {}
+[20.299148] (-) TimerEvent: {}
+[20.399660] (-) TimerEvent: {}
+[20.500136] (-) TimerEvent: {}
+[20.600604] (-) TimerEvent: {}
+[20.701014] (-) TimerEvent: {}
+[20.801460] (-) TimerEvent: {}
+[20.901905] (-) TimerEvent: {}
+[21.002464] (-) TimerEvent: {}
+[21.102943] (-) TimerEvent: {}
+[21.203416] (-) TimerEvent: {}
+[21.303840] (-) TimerEvent: {}
+[21.404265] (-) TimerEvent: {}
+[21.504809] (-) TimerEvent: {}
+[21.599179] (scara_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable coordination_node\x1b[0m\n'}
+[21.604924] (-) TimerEvent: {}
+[21.705401] (-) TimerEvent: {}
+[21.805928] (-) TimerEvent: {}
+[21.906490] (-) TimerEvent: {}
+[22.007033] (-) TimerEvent: {}
+[22.107561] (-) TimerEvent: {}
+[22.208027] (-) TimerEvent: {}
+[22.308463] (-) TimerEvent: {}
+[22.408849] (-) TimerEvent: {}
+[22.509335] (-) TimerEvent: {}
+[22.610046] (-) TimerEvent: {}
+[22.656773] (scara_control) StdoutLine: {'line': b'[100%] Built target coordination_node\n'}
+[22.680855] (scara_control) CommandEnded: {'returncode': 0}
+[22.682936] (scara_control) JobProgress: {'identifier': 'scara_control', 'progress': 'install'}
+[22.685070] (scara_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omkar/two_scara_ws/build/scara_control'], 'cwd': '/home/omkar/two_scara_ws/build/scara_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'omkar'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/omkar'), ('OLDPWD', '/home/omkar'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1523'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/omkar/two_scara_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'omkar'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'omkar'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/omkar-Inspiron-15-3511:@/tmp/.ICE-unix/1496,unix/omkar-Inspiron-15-3511:/tmp/.ICE-unix/1496'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b29a5c2_04a1_4b04_a04d_b7d243859b12'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F1GW52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.167'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/omkar/two_scara_ws/build/scara_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/omkar/two_scara_ws/install/scara_gazebo:/home/omkar/two_scara_ws/install/scara_description:/home/omkar/two_scara_ws/install/scara_control:/home/omkar/two_scara_ws/install/conveyor_description:/opt/ros/humble')]), 'shell': False}
+[22.702067] (scara_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.703665] (scara_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.704457] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/coordination_node\n'}
+[22.705160] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/target_generator.py\n'}
+[22.705546] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/spawn_objects.py\n'}
+[22.705897] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/gripper_control.py\n'}
+[22.706278] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/conveyor_control.py\n'}
+[22.706622] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/ik_solver.py\n'}
+[22.707011] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/joint_publisher.py\n'}
+[22.707861] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/full_system.launch.py\n'}
+[22.708182] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/old_full_syst_launch.py\n'}
+[22.708492] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/scara_control.launch.py\n'}
+[22.709223] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//config/scara_controllers.yaml\n'}
+[22.709744] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/package_run_dependencies/scara_control\n'}
+[22.710046] (-) TimerEvent: {}
+[22.710454] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/parent_prefix_path/scara_control\n'}
+[22.710995] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/ament_prefix_path.sh\n'}
+[22.711524] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/ament_prefix_path.dsv\n'}
+[22.712035] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/path.sh\n'}
+[22.712568] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/path.dsv\n'}
+[22.713252] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.bash\n'}
+[22.713649] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.sh\n'}
+[22.714011] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.zsh\n'}
+[22.714260] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.dsv\n'}
+[22.714594] (scara_control) StdoutLine: {'line': b'-- Symlinking: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/package.dsv\n'}
+[22.733619] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/packages/scara_control\n'}
+[22.734125] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/cmake/scara_controlConfig.cmake\n'}
+[22.734400] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/cmake/scara_controlConfig-version.cmake\n'}
+[22.734624] (scara_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/package.xml\n'}
+[22.738659] (scara_control) CommandEnded: {'returncode': 0}
+[22.771621] (scara_control) JobEnded: {'identifier': 'scara_control', 'rc': 0}
+[22.773342] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.290s] Invoking command in '/home/omkar/two_scara_ws/build/scara_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_description -- -j8 -l8
+[0.934s] Invoked command in '/home/omkar/two_scara_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_description -- -j8 -l8
+[0.949s] Invoking command in '/home/omkar/two_scara_ws/build/scara_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_description
+[1.091s] -- Install configuration: ""
+[1.098s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf
+[1.099s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf/scara1.urdf.xacro
+[1.101s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch
+[1.105s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch/spawn_scara.launch.py
+[1.106s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+[1.106s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+[1.115s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+[1.118s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+[1.121s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.sh
+[1.122s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.dsv
+[1.122s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.bash
+[1.122s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.sh
+[1.122s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.zsh
+[1.128s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.dsv
+[1.133s] -- Installing: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.dsv
+[1.135s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description
+[1.138s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+[1.147s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+[1.151s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.xml
+[1.654s] Invoked command in '/home/omkar/two_scara_ws/build/scara_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_description

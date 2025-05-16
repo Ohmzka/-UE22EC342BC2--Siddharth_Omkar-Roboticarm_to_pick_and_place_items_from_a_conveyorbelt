@@ -1,0 +1,33 @@
+[0.170s] Invoking command in '/home/omkar/two_scara_ws/build/scara_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_control -- -j8 -l8
+[0.466s] [100%] Built target coordination_node
+[0.841s] Invoked command in '/home/omkar/two_scara_ws/build/scara_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_control -- -j8 -l8
+[0.854s] Invoking command in '/home/omkar/two_scara_ws/build/scara_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_control
+[0.916s] -- Install configuration: ""
+[0.926s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/coordination_node
+[0.930s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/target_generator.py
+[0.931s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/spawn_objects.py
+[0.931s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/gripper_control.py
+[0.932s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/conveyor_control.py
+[0.932s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/ik_solver.py
+[0.940s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/joint_publisher.py
+[0.943s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch
+[0.946s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/full_system.launch.py
+[0.948s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/scara_control.launch.py
+[0.960s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//config
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//config/scara_controllers.yaml
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/package_run_dependencies/scara_control
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/parent_prefix_path/scara_control
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/ament_prefix_path.sh
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/ament_prefix_path.dsv
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/path.sh
+[0.964s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/path.dsv
+[0.965s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.bash
+[0.976s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.sh
+[0.979s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.zsh
+[0.980s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.dsv
+[0.980s] -- Installing: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/package.dsv
+[0.981s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/packages/scara_control
+[0.981s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/cmake/scara_controlConfig.cmake
+[0.981s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/cmake/scara_controlConfig-version.cmake
+[0.981s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/package.xml
+[0.981s] Invoked command in '/home/omkar/two_scara_ws/build/scara_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_control

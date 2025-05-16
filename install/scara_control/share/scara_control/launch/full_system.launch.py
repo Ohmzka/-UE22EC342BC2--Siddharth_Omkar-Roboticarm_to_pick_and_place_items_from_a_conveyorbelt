@@ -1,0 +1,1 @@
+/home/omkar/two_scara_ws/src/scara_control/launch/full_system.launch.py

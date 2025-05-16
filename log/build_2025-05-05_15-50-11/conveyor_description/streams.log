@@ -1,0 +1,31 @@
+[0.022s] Invoking command in '/home/omkar/two_scara_ws/build/conveyor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/omkar/two_scara_ws/src/conveyor_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omkar/two_scara_ws/install/conveyor_description
+[0.042s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.249s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.352s] -- Configuring done
+[0.357s] -- Generating done
+[0.359s] -- Build files have been written to: /home/omkar/two_scara_ws/build/conveyor_description
+[0.362s] Invoked command in '/home/omkar/two_scara_ws/build/conveyor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/omkar/two_scara_ws/src/conveyor_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omkar/two_scara_ws/install/conveyor_description
+[0.365s] Invoking command in '/home/omkar/two_scara_ws/build/conveyor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/conveyor_description -- -j8 -l8
+[0.411s] Invoked command in '/home/omkar/two_scara_ws/build/conveyor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/conveyor_description -- -j8 -l8
+[0.428s] Invoking command in '/home/omkar/two_scara_ws/build/conveyor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/conveyor_description
+[0.446s] -- Install configuration: ""
+[0.446s] -- Execute custom install script
+[0.447s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/urdf/conveyor.urdf.xacro
+[0.460s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/launch/conveyor_gz.launch.py
+[0.472s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/package_run_dependencies/conveyor_description
+[0.485s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/parent_prefix_path/conveyor_description
+[0.498s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/ament_prefix_path.sh
+[0.508s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/ament_prefix_path.dsv
+[0.519s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/path.sh
+[0.532s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/path.dsv
+[0.546s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.bash
+[0.556s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.sh
+[0.566s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.zsh
+[0.576s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.dsv
+[0.586s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/package.dsv
+[0.598s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/packages/conveyor_description
+[0.608s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/cmake/conveyor_descriptionConfig.cmake
+[0.620s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/cmake/conveyor_descriptionConfig-version.cmake
+[0.633s] -- Symlinking: /home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/package.xml
+[0.646s] Invoked command in '/home/omkar/two_scara_ws/build/conveyor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/conveyor_description

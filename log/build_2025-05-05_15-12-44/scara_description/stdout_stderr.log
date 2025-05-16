@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf/scara1.urdf.xacro
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch
+-- Installing: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch/spawn_scara.launch.py
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.sh
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.dsv
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.bash
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.sh
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.zsh
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.dsv
+-- Installing: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.dsv
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+-- Up-to-date: /home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.xml

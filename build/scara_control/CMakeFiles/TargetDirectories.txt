@@ -1,0 +1,10 @@
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/uninstall.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/scara_control_uninstall.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/coordination_node.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/test.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/edit_cache.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/rebuild_cache.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/list_install_components.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/install.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/install/local.dir
+/home/omkar/two_scara_ws/build/scara_control/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/urdf/conveyor.urdf.xacro
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/launch/conveyor_gz.launch.py
+/home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/package_run_dependencies/conveyor_description
+/home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/parent_prefix_path/conveyor_description
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/ament_prefix_path.sh
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/ament_prefix_path.dsv
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/path.sh
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/environment/path.dsv
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.bash
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.sh
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.zsh
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/local_setup.dsv
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/package.dsv
+/home/omkar/two_scara_ws/install/conveyor_description/share/ament_index/resource_index/packages/conveyor_description
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/cmake/conveyor_descriptionConfig.cmake
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/cmake/conveyor_descriptionConfig-version.cmake
+/home/omkar/two_scara_ws/install/conveyor_description/share/conveyor_description/package.xml

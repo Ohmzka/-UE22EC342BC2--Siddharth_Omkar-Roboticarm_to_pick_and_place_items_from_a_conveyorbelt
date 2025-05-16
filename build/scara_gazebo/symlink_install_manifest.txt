@@ -1,0 +1,17 @@
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/launch/scara_world.launch.py
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/worlds/scara_world.world
+/home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/package_run_dependencies/scara_gazebo
+/home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/parent_prefix_path/scara_gazebo
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/ament_prefix_path.sh
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/ament_prefix_path.dsv
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/path.sh
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/path.dsv
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.bash
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.sh
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.zsh
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.dsv
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/package.dsv
+/home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/packages/scara_gazebo
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/cmake/scara_gazeboConfig.cmake
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/cmake/scara_gazeboConfig-version.cmake
+/home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/package.xml

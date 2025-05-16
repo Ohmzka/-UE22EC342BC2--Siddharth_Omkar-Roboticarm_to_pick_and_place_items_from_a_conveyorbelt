@@ -1,0 +1,17 @@
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/urdf/scara1.urdf.xacro
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/launch/spawn_scara.launch.py
+/home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/package_run_dependencies/scara_description
+/home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/parent_prefix_path/scara_description
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.sh
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/ament_prefix_path.dsv
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.sh
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/environment/path.dsv
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.bash
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.sh
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.zsh
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/local_setup.dsv
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.dsv
+/home/omkar/two_scara_ws/install/scara_description/share/ament_index/resource_index/packages/scara_description
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig.cmake
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/cmake/scara_descriptionConfig-version.cmake
+/home/omkar/two_scara_ws/install/scara_description/share/scara_description/package.xml

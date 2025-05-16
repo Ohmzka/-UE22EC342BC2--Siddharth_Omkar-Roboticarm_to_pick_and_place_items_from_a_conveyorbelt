@@ -1,0 +1,24 @@
+[0.235s] Invoking command in '/home/omkar/two_scara_ws/build/scara_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_gazebo -- -j8 -l8
+[0.378s] Invoked command in '/home/omkar/two_scara_ws/build/scara_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_gazebo -- -j8 -l8
+[0.381s] Invoking command in '/home/omkar/two_scara_ws/build/scara_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_gazebo
+[0.396s] -- Install configuration: ""
+[0.397s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/launch
+[0.397s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/launch/scara_world.launch.py
+[0.397s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/worlds
+[0.397s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/worlds/scara_world.world
+[0.397s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/package_run_dependencies/scara_gazebo
+[0.397s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/parent_prefix_path/scara_gazebo
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/ament_prefix_path.sh
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/ament_prefix_path.dsv
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/path.sh
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/environment/path.dsv
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.bash
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.sh
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.zsh
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/local_setup.dsv
+[0.398s] -- Installing: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/package.dsv
+[0.398s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/ament_index/resource_index/packages/scara_gazebo
+[0.399s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/cmake/scara_gazeboConfig.cmake
+[0.399s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/cmake/scara_gazeboConfig-version.cmake
+[0.399s] -- Up-to-date: /home/omkar/two_scara_ws/install/scara_gazebo/share/scara_gazebo/package.xml
+[0.640s] Invoked command in '/home/omkar/two_scara_ws/build/scara_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_gazebo

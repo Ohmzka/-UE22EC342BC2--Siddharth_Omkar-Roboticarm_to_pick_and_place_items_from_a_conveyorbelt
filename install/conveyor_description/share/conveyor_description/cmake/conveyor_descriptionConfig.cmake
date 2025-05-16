@@ -1,0 +1,1 @@
+/home/omkar/two_scara_ws/build/conveyor_description/ament_cmake_core/conveyor_descriptionConfig.cmake

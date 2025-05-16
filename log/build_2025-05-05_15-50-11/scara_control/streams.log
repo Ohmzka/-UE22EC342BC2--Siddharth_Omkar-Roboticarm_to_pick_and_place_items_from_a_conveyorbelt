@@ -1,0 +1,108 @@
+[0.018s] Invoking command in '/home/omkar/two_scara_ws/build/scara_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/omkar/two_scara_ws/src/scara_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omkar/two_scara_ws/install/scara_control
+[0.037s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.237s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.252s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.290s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.294s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.302s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.396s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.398s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.621s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.667s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.667s] -- Found controller_manager: 2.49.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.842s] -- Found ros2_control: 2.49.0 (/opt/ros/humble/share/ros2_control/cmake)
+[0.843s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.843s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.848s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.849s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.917s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.953s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.982s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.983s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.988s] -- Searching for dependencies of ignition-math6
+[0.989s] -- Looking for OGRE...
+[0.995s] -- Found Ogre Ghadamon (1.9.0)
+[0.995s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.006s] -- Looking for OGRE_Paging...
+[1.006s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.006s] -- Looking for OGRE_Terrain...
+[1.006s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.006s] -- Looking for OGRE_Property...
+[1.006s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.006s] -- Looking for OGRE_RTShaderSystem...
+[1.006s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.006s] -- Looking for OGRE_Volume...
+[1.007s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.007s] -- Looking for OGRE_Overlay...
+[1.007s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.141s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.141s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.141s] -- Searching for dependencies of ignition-transport8
+[1.161s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.173s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.178s] -- Checking for module 'libzmq >= 4'
+[1.190s] --   Found libzmq , version 4.3.4
+[1.233s] -- Checking for module 'uuid'
+[1.245s] --   Found uuid, version 2.37.2
+[1.275s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.275s] -- Searching for dependencies of ignition-msgs5
+[1.294s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.301s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.301s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.302s] -- Searching for dependencies of ignition-common3
+[1.302s] -- Looking for dlfcn.h - found
+[1.302s] -- Looking for libdl - found
+[1.314s] -- Searching for <ignition-common3> component [graphics]
+[1.315s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.316s] -- Searching for dependencies of ignition-common3-graphics
+[1.316s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.317s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.317s] -- Searching for dependencies of ignition-fuel_tools4
+[1.358s] -- Checking for module 'jsoncpp'
+[1.371s] --   Found jsoncpp, version 1.9.5
+[1.407s] -- Checking for module 'libzip'
+[1.419s] --   Found libzip, version 1.7.3
+[1.453s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.453s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.453s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.454s] -- Gazebo version: 11.10
+[1.525s] -- Configuring done
+[1.538s] -- Generating done
+[1.542s] -- Build files have been written to: /home/omkar/two_scara_ws/build/scara_control
+[1.555s] Invoked command in '/home/omkar/two_scara_ws/build/scara_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/omkar/two_scara_ws/src/scara_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/omkar/two_scara_ws/install/scara_control
+[1.556s] Invoking command in '/home/omkar/two_scara_ws/build/scara_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_control -- -j8 -l8
+[1.594s] [35m[1mConsolidate compiler generated dependencies of target coordination_node[0m
+[1.608s] [100%] Built target coordination_node
+[1.618s] Invoked command in '/home/omkar/two_scara_ws/build/scara_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omkar/two_scara_ws/build/scara_control -- -j8 -l8
+[1.619s] Invoking command in '/home/omkar/two_scara_ws/build/scara_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_control
+[1.628s] -- Install configuration: ""
+[1.628s] -- Execute custom install script
+[1.628s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/coordination_node
+[1.628s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/target_generator.py
+[1.628s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/spawn_objects.py
+[1.629s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/gripper_control.py
+[1.629s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/conveyor_control.py
+[1.629s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/ik_solver.py
+[1.629s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/lib/scara_control/joint_publisher.py
+[1.629s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/full_system.launch.py
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//launch/scara_control.launch.py
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control//config/scara_controllers.yaml
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/package_run_dependencies/scara_control
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/parent_prefix_path/scara_control
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/ament_prefix_path.sh
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/ament_prefix_path.dsv
+[1.630s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/path.sh
+[1.631s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/environment/path.dsv
+[1.631s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.bash
+[1.631s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.sh
+[1.631s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.zsh
+[1.631s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/local_setup.dsv
+[1.631s] -- Symlinking: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/package.dsv
+[1.639s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/ament_index/resource_index/packages/scara_control
+[1.639s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/cmake/scara_controlConfig.cmake
+[1.639s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/cmake/scara_controlConfig-version.cmake
+[1.639s] -- Up-to-date symlink: /home/omkar/two_scara_ws/install/scara_control/share/scara_control/package.xml
+[1.643s] Invoked command in '/home/omkar/two_scara_ws/build/scara_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omkar/two_scara_ws/build/scara_control
